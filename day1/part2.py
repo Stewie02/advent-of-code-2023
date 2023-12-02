@@ -1,7 +1,7 @@
 import regex as re 
 
 digits = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "\d"]
-data = open("./day1/data2.txt").readlines()
+data = open("./day1/data.txt").readlines()
 regex_obj = re.compile(r'(' + '|'.join(digits) + ')')
 
 def digits_to_s(x):
